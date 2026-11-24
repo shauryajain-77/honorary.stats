@@ -1,0 +1,100 @@
+{
+  "tailoring/artisan": [
+    {
+      "scheme_name": "PM Vishwakarma Scheme (Tailor / Darzi & Traditional Artisans)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pm-vishwakarma",
+      "one_line_benefit": "₹15,000 modern toolkit incentive, skill verification certificate, ₹500/day training stipend, and collateral-free credit up to ₹3 Lakhs at 5% interest.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    },
+    {
+      "scheme_name": "Samarth Scheme (Capacity Building in Textile Sector)",
+      "official_url": "https://www.myscheme.gov.in/schemes/samarth",
+      "one_line_benefit": "Free certified skill training, handloom and garment machinery certification, and direct wage employment linkage across apparel clusters.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    }
+  ],
+  "electrical/repair": [
+    {
+      "scheme_name": "PM Surya Ghar: Muft Bijli Yojana (Rooftop Solar & Technician Pathway)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pm-surya-ghar-muft-bijli-yojana",
+      "one_line_benefit": "Subsidy support for residential solar installation and national skilling opportunities for Surya Mitra solar and electrical technicians.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    },
+    {
+      "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY - Electrical & Electronics)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmkvy",
+      "one_line_benefit": "Government-funded short-term technical training, Recognition of Prior Learning (RPL) certification, and accidental insurance coverage.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    }
+  ],
+  "cooking/food": [
+    {
+      "scheme_name": "PM Formalisation of Micro Food Processing Enterprises (PM-FME)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pm-fme",
+      "one_line_benefit": "35% credit-linked capital subsidy up to ₹10 Lakhs, FSSAI hygiene training, and branding support for micro food processing and catering units.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    },
+    {
+      "scheme_name": "PM SVANidhi Scheme (Street Vendors & Food Stalls)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pm-svanidhi",
+      "one_line_benefit": "Collateral-free working capital micro-loans from ₹10,000 up to ₹50,000 with 7% interest subsidy and cashback rewards on digital transactions.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    }
+  ],
+  "shopkeeping/retail": [
+    {
+      "scheme_name": "PM SVANidhi (Urban Micro-Retail & Vending Scheme)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pm-svanidhi",
+      "one_line_benefit": "Affordable working capital loan starting at ₹10,000 with enhanced limits on timely repayment and digital QR transaction incentives.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    },
+    {
+      "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY - Shishu / Kishore / Tarun)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmmy",
+      "one_line_benefit": "Collateral-free business loans up to ₹10 Lakhs for micro-enterprises, kirana shops, retail trading, and service establishments.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    }
+  ],
+  "plumbing/carpentry/construction": [
+    {
+      "scheme_name": "PM Vishwakarma Scheme (Carpenter / Suthar & Plumber)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pm-vishwakarma",
+      "one_line_benefit": "Skill recognition ID card, ₹15,000 electronic toolkit e-voucher, modern technique training, and low-interest enterprise loans.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    },
+    {
+      "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY - Construction & Plumbing)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmkvy",
+      "one_line_benefit": "Free NSDC skill certification, safety equipment orientation, and wage linkage with registered infrastructure contractors.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    }
+  ],
+  "driving/transport": [
+    {
+      "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY - Commercial Transport Vehicles)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmmy",
+      "one_line_benefit": "Institutional bank financing for purchase of auto-rickshaws, e-rickshaws, small goods transport vehicles, and passenger taxis.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    },
+    {
+      "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY - Automotive & Driver Training)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmkvy",
+      "one_line_benefit": "Certified commercial driver training, road safety compliance certification, and placement assistance with logistics fleets.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    }
+  ],
+  "beauty/salon": [
+    {
+      "scheme_name": "PM Vishwakarma Scheme (Barber / Hairdresser / Beautician)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pm-vishwakarma",
+      "one_line_benefit": "Official recognition as a certified artisan, ₹15,000 salon toolkit grant, ₹500/day stipend during basic training, and low-cost credit.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    },
+    {
+      "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY - Beauty & Wellness)",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmkvy",
+      "one_line_benefit": "Skill council certified training in salon hygiene, advanced styling, and entrepreneurship guidance for opening independent studios.",
+      "disclaimer": "Verify eligibility on the official myScheme portal before applying."
+    }
+  ]
+}
