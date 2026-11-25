@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>honorary.stats</title>
+  
+  <!-- Friendly Rounded Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- React 18 & ReactDOM from CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  
+  <!-- Babel Standalone (for in-browser JSX parsing without npm build step) -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <!-- Friendly Notice banner if user opens via file:// in a browser with strict local CORS -->
+  <div id="local-cors-banner" class="cors-warning-banner">
+    ⚠️ <strong>Tip:</strong> If components don't load over <code>file://</code> in Chrome, run <code>python3 -m http.server 8000</code> in this folder and open <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> or open in Safari.
+  </div>
+
+  <div id="root">
+    <!-- Friendly Initial Loading Placeholder before React mounts -->
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:80vh; text-align:center; padding:20px; font-family:'Quicksand',sans-serif;">
+      <h2 style="color:#26292B; margin-bottom:8px;">honorary<span style="color:#C36145;">.</span>stats</h2>
+      <p style="color:#5F6469; font-size:16px;">Loading prototype...</p>
+    </div>
+  </div>
+
+  <!-- Application Scripts (Loaded in order) -->
+  <script src="sampledata.js"></script>
+  <script type="text/babel" src="Welcome.js"></script>
+  <script type="text/babel" src="Speak.js"></script>
+  <script type="text/babel" src="Confirm.js"></script>
+  <script type="text/babel" src="SkillCard.js"></script>
+  <script type="text/babel" src="Path.js"></script>
+  <script type="text/babel" src="App.js"></script>
+
+  <!-- Script to show warning banner only if file:// protocol is detected in Chrome -->
+  <script>
+    if (window.location.protocol === 'file:' && window.chrome) {
+      // Check after a brief delay if root is still not rendered
+      setTimeout(function() {
+        var banner = document.getElementById('local-cors-banner');
+        if (banner && (!window.Welcome || !document.querySelector('.app-container'))) {
+          banner.style.display = 'block';
+        }
+      }, 1200);
+    }
+  </script>
+</body>
+</html>
